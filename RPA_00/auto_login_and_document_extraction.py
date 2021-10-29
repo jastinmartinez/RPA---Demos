@@ -11,6 +11,7 @@ SUBJECT = '1914-ISO800-GESTION DE CALIDAD DE SOFTWARE-VIR'
 SUBJECT_TOPIC = 'Módulo 1 - Conceptos Básicos'
 SUBJECT_TOPIC_FILE = 'Download Módulo 1-1.1 -Conceptos Básicos.pptx'
 DOWNLOAD_PATH = ''
+CHROME_DRIVER = ''
 
 #Chrome settings to set custom path
 chrome_options = webdriver.ChromeOptions()
@@ -22,7 +23,7 @@ chrome_options.add_experimental_option("prefs", {
 })
 
 #Execute chrome automation driver
-driver = webdriver.Chrome(executable_path='chromedriver',chrome_options=chrome_options)
+driver = webdriver.Chrome(executable_path=CHROME_DRIVER,chrome_options=chrome_options)
 
 #set url
 driver.get('https://canvas.unapec.edu.do/login/saml')
