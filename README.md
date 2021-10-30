@@ -3,7 +3,7 @@
 ## RPA_00
 Autologin and document extract
 
-### Requisitos
+### Requirements
 * [Python](https://www.python.org/downloads/)
 * [PIP](https://pip.pypa.io/en/stable/cli/pip_download/)
 * [Chrome Driver](https://chromedriver.chromium.org/downloads)
